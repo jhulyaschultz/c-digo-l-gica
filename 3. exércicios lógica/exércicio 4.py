@@ -13,7 +13,7 @@ senha_cadastrada = "123"
 login = input ("digite o login:")
 senha = input ("digite a semha:")
 
-if login == login cadastrado and senha == senha_cadastrada:
+if login == login and senha == senha_cadastrada:
      print("bem-vindo!")
 
 else:

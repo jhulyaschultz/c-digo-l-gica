@@ -1,7 +1,7 @@
 import os
 os.system ("clear")
 
-
+dia = 0
 #processamento
 match dia:
     case 1:

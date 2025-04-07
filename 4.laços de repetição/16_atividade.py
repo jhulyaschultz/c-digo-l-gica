@@ -8,7 +8,7 @@ soma_total = 0
 total = 0
 
 while True:
-    numero = int(input("digite um numero positivo: "))
+    numero = int(input("digite um numero: "))
 
     if numero == 0:
         break
