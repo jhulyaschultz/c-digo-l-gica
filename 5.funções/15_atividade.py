@@ -12,7 +12,7 @@ if calcular_imc (peso , altura) < 18.5:
     print("Abaixo Do Peso.")
 elif calcular_imc (peso , altura) < 24.9:
     print("Peso Normal.")
-elif calcular_imc("peso , altura") < 29.9:
+elif calcular_imc ("peso , altura") < 29.9:
     print("Sobrepeso.")
 elif calcular_imc(peso , altura) < 34.9:
     print("Obesidade Grau 1.")
