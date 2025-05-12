@@ -16,11 +16,11 @@ QUANTIDADE_PESSOAS = 5
 
 for i in range (QUANTIDADE_PESSOAS):
     pessoa = Pessoa(
-                    nome = input("digite seu nome: ")
-                    data_nascimento = int(input("digite sua data de nascimento: "))
-                    rg = int(input("digite seu rg: "))
-                    cpf = int(input("digite o cpf: "))
-                    )
+                    nome = input("digite seu nome: "),
+                    data_nascimento = int(input("digite sua data de nascimento: ")),
+                    rg = int(input("digite seu rg: ")),
+                    cpf = int(input("digite o cpf: ")),
+    )
     lista_pessoas.append(pessoa)
 
 nome_arquivo = "funcionarios.txt" 

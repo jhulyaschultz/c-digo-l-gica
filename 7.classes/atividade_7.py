@@ -16,7 +16,7 @@ class Funcionario:
     def dados_funcionario (self):
         print (f"Nome: {self.nome} \nData de admissão: {self.data_admissao}\nMatrícula: {self.matricula}\nEndereço: {self.endereço}\n ")
 lista_pessoas= []
-QUANTIDADE_PESSOAS = 3
+QUANTIDADE_PESSOAS = 1
 
 #Atribuindo dados ao paciente1.
 for i in range (QUANTIDADE_PESSOAS):
@@ -49,7 +49,7 @@ class Cliente:
     def dados_cliente (self):
         print (f"Nome: {self.nome} \nData de nascimento: {self.data_nascimento}\nEndereço: {self.endereço}\n ")
 lista_clientes= []
-QUANTIDADE_CLIENTES = 3
+QUANTIDADE_CLIENTES = 1
 
 for i in range (QUANTIDADE_CLIENTES):
     cliente = Cliente(
